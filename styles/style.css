@@ -1,7 +1,19 @@
-header {
+.header-image {
     background-image: url(../images/forest-wallpaper.jpg);
     background-size: 100%;
+    height: 60em;
     background-position: top center;
-    height: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 5rem;
 }
 
